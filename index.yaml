@@ -1,0 +1,13 @@
+apiVersion: v1
+entries:
+  akash-provider:
+  - apiVersion: v1
+    appVersion: 0.5.1
+    created: "2019-10-18T01:57:28.98906-07:00"
+    description: A Helm chart for deploying Akash Providers
+    digest: c4a4269f72ecde42aa734e9ec89bfef114707dc1c661dd505f02b99d8a1fe892
+    name: akash-provider
+    urls:
+    - dist/akash-provider-0.1.0.tgz
+    version: 0.1.0
+generated: "2019-10-18T01:57:28.988155-07:00"
