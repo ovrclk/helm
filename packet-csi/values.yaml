@@ -18,7 +18,7 @@ csi:
   address: /csi/csi.sock
 
 packetDriver:
-  image: docker.io/packethost/csi-packet:42377cc
+  image: docker.io/packethost/csi-packet:beb1628
 
 # kubelet home directory
 kubeletDir: /var/lib/rancher/k3s/agent/kubelet
