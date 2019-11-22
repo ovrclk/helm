@@ -1,13 +1,41 @@
 apiVersion: v1
 entries:
+  akash-node:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2019-11-21T17:17:20.668069-08:00"
+    description: A Helm chart for Akash Nodes
+    digest: 38445d583b2d18444b45df0d722fd5596090305511ea4734e3be34db64992c1f
+    name: akash-node
+    urls:
+    - dist/akash-node-0.1.0.tgz
+    version: 0.1.0
   akash-provider:
   - apiVersion: v1
     appVersion: 0.5.4
-    created: "2019-11-21T15:54:05.614441-08:00"
+    created: "2019-11-21T17:17:20.66837-08:00"
     description: A Helm chart for deploying Akash Providers
-    digest: b16e8285142df8cfc50dcb3404770310f81c6b8a2dccc6b5597563d9d9b4d7b6
+    digest: a7103246b4106982925b9c46018a129c9602036e5b091ff21f550ab8117f5e5b
     name: akash-provider
     urls:
     - dist/akash-provider-0.1.0.tgz
     version: 0.1.0
-generated: "2019-11-21T15:54:05.614006-08:00"
+  csi-packet:
+  - apiVersion: v1
+    appVersion: 42377cc
+    created: "2019-11-21T17:17:20.668741-08:00"
+    description: Kubernetes CSI implementation for Packet
+    digest: 616c45b8bc56852be229474581451031f5103c9274514a3beeef91268dc1ea56
+    maintainers:
+    - email: greg@akash.network
+      name: gosuri
+    - email: boz@akash.network
+      name: boz
+    name: csi-packet
+    sources:
+    - https://github.com/packethost/csi-packet
+    tillerVersion: '>=2.8.0'
+    urls:
+    - dist/csi-packet-0.2.0.tgz
+    version: 0.2.0
+generated: "2019-11-21T17:17:20.667551-08:00"
