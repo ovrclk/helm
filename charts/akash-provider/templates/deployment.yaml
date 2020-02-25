@@ -33,6 +33,8 @@ spec:
             - {{ .Values.provider.privateKeyName | default .Release.Name | quote }}
             - "--private-key"
             - "/private/private.key"
+            - "--node"
+            - {{ .Values.akash.node | quote }}
             - "--kube"
           env:
             - name: AKASH_HOST
